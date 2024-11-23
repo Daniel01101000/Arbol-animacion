@@ -1,0 +1,20 @@
+#container {
+    width: 500px;
+    height: 500px;
+    position: absolute; /* Establecer el contenedor como absoluto */
+    top: 53%; /* Posiciona el contenedor a la mitad del alto */
+    left: 50%; /* Posiciona el contenedor a la mitad del ancho */
+    transform: translate(-50%, -50%); /* Ajusta el contenedor para centrarlo perfectamente */
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+  #tronco {
+    width: 80px; /* 100% del ancho de la ventana */
+    height: 230px; /* 100% del alto de la ventana */
+    position: relative;
+    background-color: rgb(156, 87, 87);
+    top: 90%;
+    left: 40%;
+    color: rgb(72, 163, 30); 
+  }
