@@ -48,6 +48,12 @@ if (!document.getElementById('global-keyframes')) {
   document.head.appendChild(styleSheet);
 }
 
+let numDivs = 115; // Valor predeterminado
+if (window.innerWidth < 500) {
+  numDivs = 60; // Menos divs para pantallas pequeñas
+}
+
+
 for (let i = 0; i < 115; i++) {
   const numRandom = Math.floor(Math.random() * colors.length);
   const color = colors[numRandom];
