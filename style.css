@@ -20,7 +20,16 @@
     border-radius: 0%;
   }
 
-  div {
-    border-radius: 50%;
-    position: absolute;
-  }
+  @media (max-width: 500px) {
+    #container {
+        width: 300px; /* Reducir el ancho */
+        height: 300px; /* Reducir el alto */
+    }
+
+    #tronco {
+        width: 50px; /* Ajustar el ancho */
+        height: 150px; /* Ajustar el alto */
+        top: 85%; /* Modificar la posición */
+        left: 35%;
+    }
+}
