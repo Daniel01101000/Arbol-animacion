@@ -20,7 +20,7 @@
     border-radius: 0%;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 650px) {
     #container {
         width: 300px; /* Reducir el ancho */
         height: 300px; /* Reducir el alto */
