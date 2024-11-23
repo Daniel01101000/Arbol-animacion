@@ -2,7 +2,7 @@
     width: 500px;
     height: 500px;
     position: absolute; /* Establecer el contenedor como absoluto */
-    top: 53%; /* Posiciona el contenedor a la mitad del alto */
+    top: 59%; /* Posiciona el contenedor a la mitad del alto */
     left: 50%; /* Posiciona el contenedor a la mitad del ancho */
     transform: translate(-50%, -50%); /* Ajusta el contenedor para centrarlo perfectamente */
     background-color: transparent;
@@ -17,4 +17,10 @@
     top: 90%;
     left: 40%;
     color: rgb(72, 163, 30); 
+    border-radius: 0%;
+  }
+
+  div {
+    border-radius: 50%;
+    position: absolute;
   }
